@@ -8,4 +8,4 @@ WITH tweet_count AS
 
 SELECT tweet_bucket, COUNT(*) AS users_num 
 FROM tweet_count
-GROUP BY tweet_bucket ORDER BY 1
+GROUP BY tweet_bucket ORDER BY 1;
